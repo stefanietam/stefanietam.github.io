@@ -1,0 +1,128 @@
+@font-face {
+    font-family: swisBold;
+    src: url(Swis721_BT_Bold.ttf);
+}
+
+@font-face {
+    font-family: swisBoldExtended;
+    src: url(swiss_721_bold_extended_bt.ttf);
+}
+
+body {
+    margin:0px;
+    color: rgb(0 177 64);
+    cursor:none;
+}
+
+.yepyep {
+    font-family: swisBoldExtended;
+    font-size: 60vh;
+    line-height: 47.75vh;
+    margin-left: 4.75vh;
+    margin-top: 0vh;
+    position:fixed;
+}
+
+.number {
+    font-family: swisBoldExtended;
+    position: fixed;
+    bottom: 3.5vh;
+}
+
+.title {
+    font-family: swisBoldExtended;
+    font-size: 21vh;
+    line-height: 19vh;
+    position: fixed;
+    top: 1.75vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.bodyText {
+    font-family: swisBold;
+    text-align: justify;
+    margin-top: 3.5vh;
+    margin-left: 4.65vh;
+    margin-right: 4.65vh;
+    font-size: 3.1vh;
+    line-height: 3.25vh;
+    letter-spacing: -.02em;
+}
+
+#hover{
+    font-family: swisBold;
+    font-size: 3.1vh;
+    line-height: 3.25vh;
+    letter-spacing: -.02em;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    color:rgb(0 177 64);
+    
+}
+
+#centered {
+    text-align:center;
+}
+
+#screen3, #screen4, #screen5, #screen6, #screen7, #screen8, #screen9, #screen10, #screen11, #screen12, #screen13, #screen14, #screen15, #screen16, #screen17, #screen18, #screen19 {
+    opacity:0%;
+    transition: opacity .1s ease-in-out;
+    mix-blend-mode: multiply;
+    height: 100%;
+}
+
+#screen5, #screen6, #screen9, #screen10, #screen13, #screen14, #screen17, #screen18 {
+    color: rgb(249 56 34);
+}
+
+#screen2 {
+    opacity: 15%;
+    transition: opacity .1s ease-in-out;
+    height: 100%;
+    mix-blend-mode: multiply;
+
+}
+
+#screen1 {
+    opacity: 100%;
+    transition: opacity .1s ease-in-out;
+    mix-blend-mode: multiply;
+}
+
+#subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: solid 3.25vh;
+    margin-left: 4.5vh;
+    margin-right: 10.25vh;
+    margin-top: 4.75vh;
+    height: 47.25vh;
+    overflow:hidden;
+
+}
+
+#screen19{
+    width:100%;
+}
+
+.right{
+    width:50vw;
+    height: 100vh;
+    right:0px;
+    position:fixed;
+    top:0px; 
+}
+
+.left{
+    width:50vw;
+    height: 100vh;
+    left:0px;
+    position:fixed;
+    top:0px;
+    
+}
+
+
