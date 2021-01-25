@@ -21,7 +21,7 @@ $(document).ready(function() {
         $("#screen" + nextzeroopacity).css("opacity", "0%");
     }
     
-    $(".right").click(function(){
+    $("body").click(function(){
          
         setNextOpacities();
 
@@ -38,30 +38,7 @@ $(document).ready(function() {
         if (nextzeroopacity > screens.length) nextzeroopacity = 1;
 
     }); 
-    
-    $(".left").click(function(){
-        setPrevOpacities();
-        
-        prevzeroopacity--;
-        if (prevzeroopacity < 1) prevzeroopacity = screens.length;
-        
-        fullopacity--;
-        if (fullopacity < 1) fullopacity = screens.length;
-        
-        halfopacity--;
-        if (halfopacity < 1) halfopacity = screens.length;
-       
-        nextzeroopacity--;
-        if (nextzeroopacity < 1) nextzeroopacity = screens.length;
-        
-    }); 
-    
-    $(".left").hover(function(){
-       $("#hover").text("PREV"); 
-    });
-    $(".right").hover(function(){
-       $("#hover").text("NEXT"); 
-    });
+
 
 });
 
