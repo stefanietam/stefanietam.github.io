@@ -21,7 +21,9 @@ $(document).ready(function() {
         $("#screen" + nextzeroopacity).css("opacity", "0%");
     }
     
-    $("body").click(function(){
+    $("body").css("overflow", "hidden");
+    
+    $("#click-detector").click(function(){
          
         setNextOpacities();
 
@@ -36,6 +38,18 @@ $(document).ready(function() {
        
         nextzeroopacity++;
         if (nextzeroopacity > screens.length) nextzeroopacity = 1;
+        
+        if (fullopacity == 2){
+            $("body").css("overflow", "scroll");
+        } else {
+            $("body").css("overflow", "hidden");
+        }
+        
+        if (fullopacity == 3) {
+            $("#screen3").addClass('clickable');
+        } else {
+            $("screen3").removeClass('clickable');
+        }
 
     }); 
 
