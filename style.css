@@ -71,7 +71,7 @@
         margin: 36px;
         top: 0px;
         position: fixed;
-        opacity: 100%;
+        opacity: 1;
 }
     #screen2 {
         width:calc(100vw - 72px);
@@ -84,7 +84,7 @@
         font-size: 1.75em;
         line-height: 1.05em;
         letter-spacing: -.025em;
-        opacity: 15%;
+        opacity: .15;
 }
     #screen3 {
         width:calc(100vw - 72px);
@@ -96,7 +96,7 @@
         font-size: 9.5em;
         line-height: .95em;
         position: fixed;
-        opacity:0%;
+        opacity:0;
 }
     #address {
         width:96%;
@@ -202,7 +202,7 @@
         margin: 36px;
         top: 0px;
         position: fixed;
-        opacity: 100%;
+        opacity: 1;
     }
     #screen2 {
         width:calc(100vw - 72px);
@@ -215,7 +215,7 @@
         font-size: 1.25em;
         line-height: 1em;
         letter-spacing: -.025em;
-        opacity: 15%;
+        opacity: .15;
         hyphens:auto;
     }
     #screen3 {
@@ -228,7 +228,7 @@
         font-size: 4.75em;
         line-height: 1.06em;
         position: fixed;
-        opacity:0%;
+        opacity:0;
         height: 100%;
     }
     #address {

@@ -8,17 +8,17 @@ $(document).ready(function() {
     var nextzeroopacity = 3;
             
     function setNextOpacities() {
-        $("#screen" + prevzeroopacity).css("opacity","0%");
-        $("#screen" + fullopacity).css("opacity","0%");
-        $("#screen" + halfopacity).css("opacity", "100%");
-        $("#screen" + nextzeroopacity).css("opacity","15%");
+        $("#screen" + prevzeroopacity).css("opacity","0");
+        $("#screen" + fullopacity).css("opacity","0");
+        $("#screen" + halfopacity).css("opacity", "1");
+        $("#screen" + nextzeroopacity).css("opacity",".15");
     }
     
     function setPrevOpacities() {
-        $("#screen" + prevzeroopacity).css("opacity","100%");
-        $("#screen" + fullopacity).css("opacity","15%");
-        $("#screen" + halfopacity).css("opacity", "0%");
-        $("#screen" + nextzeroopacity).css("opacity", "0%");
+        $("#screen" + prevzeroopacity).css("opacity","1");
+        $("#screen" + fullopacity).css("opacity",".15");
+        $("#screen" + halfopacity).css("opacity", "0");
+        $("#screen" + nextzeroopacity).css("opacity", "0");
     }
     
     $("body").css("overflow", "hidden");
@@ -52,7 +52,6 @@ $(document).ready(function() {
         }
 
     }); 
-
 
 });
 
