@@ -57,6 +57,9 @@
       bottom: 28px;
       position: fixed;
 }
+    #logomobile {
+        display:none;
+    }
     #issuenumber{
         font-family: swisBoldExtended;
         font-size: 9.5em;
@@ -178,16 +181,16 @@
         z-index: 1;
 }
     #logo {
-      width: calc(100vw - 72px);
-      height:calc(50vh - 49px);
-      position: fixed;
+      display:none;
 }
     #logo2 {
-      width: calc(100vw - 72px);
-      height:calc(50vh - 49px);
-      bottom: 28px;
-      position: fixed;
+      display:none;
 }
+      #logomobile {
+      width: calc(100vw - 72px);
+      height:calc(100vh - 49px);
+      position: fixed;
+    }
     #issuenumber{
         font-family: swisBoldExtended;
         font-size: 9.5em;
@@ -319,6 +322,9 @@
       height:calc(50vh - 49px);
       bottom: 28px;
       position: fixed;
+    }
+    #logomobile {
+        display:none;
     }
     #issuenumber{
         font-family: swisBoldExtended;
