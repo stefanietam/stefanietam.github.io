@@ -64,6 +64,9 @@
         position: fixed;
         opacity: 100%;
         transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
 }
@@ -80,6 +83,9 @@
         letter-spacing: -.025em;
         opacity: 15%;
         transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
         height: 100%;
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
@@ -96,6 +102,9 @@
         position: fixed;
         opacity:0%;
         transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
         height: 100%;
@@ -197,6 +206,9 @@
         position: fixed;
         opacity: 100%;
         transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
     }
@@ -213,6 +225,9 @@
         letter-spacing: -.025em;
         opacity: 15%;
         transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
         height: 100%;
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
@@ -230,6 +245,9 @@
         position: fixed;
         opacity:0%;
         transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
         background-blend-mode: multiply;
         height: 100%;
