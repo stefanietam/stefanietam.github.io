@@ -225,8 +225,8 @@
         margin-left:31px;
         margin-right: 24px;
         font-family: swisBoldExtended;
-        font-size: 4.6em;
-        line-height: 1.1em;
+        font-size: 4.75em;
+        line-height: 1.06em;
         position: fixed;
         opacity:0;
         height: 100%;
@@ -237,11 +237,11 @@
         text-align: justify;
         font-size: .275em;
         margin-top: .89em;
-        line-height: 1.03em;
+        line-height: 1em;
         letter-spacing: -.02em;
         text-align:center;
         position: fixed;
-        bottom: 29px;
+        bottom: 30px;
     }
     #centered {
         text-align:center;
@@ -255,7 +255,7 @@
         margin-right: .13em;
         margin-top: .36em;
         margin-bottom: .36em;
-        height: 1.45em;
+        height: 1.38em;
         overflow:hidden;
         border-right:.27em;
     }
