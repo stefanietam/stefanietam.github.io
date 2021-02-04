@@ -32,6 +32,15 @@
         margin:0px;
         color: rgb(0 177 64);
 }
+    .blend {
+    transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    height: 100%;
+    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
+    }
     .screenContainer{
         width: 100vw;
         height: 100vh;
@@ -63,12 +72,6 @@
         top: 0px;
         position: fixed;
         opacity: 100%;
-        transition: opacity .1s ease-in-out;
-        -webkit-transition: opacity .1s ease-in-out;
-        -moz-transition: opacity .1s ease-in-out;
-        -o-transition: opacity .1s ease-in-out;
-        mix-blend-mode: multiply;
-        background-blend-mode: multiply;
 }
     #screen2 {
         width:calc(100vw - 72px);
@@ -82,13 +85,6 @@
         line-height: 1.05em;
         letter-spacing: -.025em;
         opacity: 15%;
-        transition: opacity .1s ease-in-out;
-        -webkit-transition: opacity .1s ease-in-out;
-        -moz-transition: opacity .1s ease-in-out;
-        -o-transition: opacity .1s ease-in-out;
-        height: 100%;
-        mix-blend-mode: multiply;
-        background-blend-mode: multiply;
 }
     #screen3 {
         width:calc(100vw - 72px);
@@ -101,13 +97,6 @@
         line-height: .95em;
         position: fixed;
         opacity:0%;
-        transition: opacity .1s ease-in-out;
-        -webkit-transition: opacity .1s ease-in-out;
-        -moz-transition: opacity .1s ease-in-out;
-        -o-transition: opacity .1s ease-in-out;
-        mix-blend-mode: multiply;
-        background-blend-mode: multiply;
-        height: 100%;
 }
     #address {
         width:96%;
@@ -174,6 +163,15 @@
         margin:0px;
         color: rgb(0 177 64);
     }
+    .blend {
+        transition: opacity .1s ease-in-out;
+        -webkit-transition: opacity .1s ease-in-out;
+        -moz-transition: opacity .1s ease-in-out;
+        -o-transition: opacity .1s ease-in-out;
+        height: 100%;
+        mix-blend-mode: multiply;
+        background-blend-mode: multiply;
+    }
     .screenContainer{
         width: 100vw;
         height: 100vh;
@@ -205,12 +203,6 @@
         top: 0px;
         position: fixed;
         opacity: 100%;
-        transition: opacity .1s ease-in-out;
-        -webkit-transition: opacity .1s ease-in-out;
-        -moz-transition: opacity .1s ease-in-out;
-        -o-transition: opacity .1s ease-in-out;
-        mix-blend-mode: multiply;
-        background-blend-mode: multiply;
     }
     #screen2 {
         width:calc(100vw - 72px);
@@ -224,13 +216,6 @@
         line-height: 1em;
         letter-spacing: -.025em;
         opacity: 15%;
-        transition: opacity .1s ease-in-out;
-        -webkit-transition: opacity .1s ease-in-out;
-        -moz-transition: opacity .1s ease-in-out;
-        -o-transition: opacity .1s ease-in-out;
-        height: 100%;
-        mix-blend-mode: multiply;
-        background-blend-mode: multiply;
         hyphens:auto;
     }
     #screen3 {
@@ -244,12 +229,6 @@
         line-height: 1.06em;
         position: fixed;
         opacity:0%;
-        transition: opacity .1s ease-in-out;
-        -webkit-transition: opacity .1s ease-in-out;
-        -moz-transition: opacity .1s ease-in-out;
-        -o-transition: opacity .1s ease-in-out;
-        mix-blend-mode: multiply;
-        background-blend-mode: multiply;
         height: 100%;
     }
     #address {
