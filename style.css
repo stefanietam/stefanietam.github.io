@@ -129,7 +129,139 @@
     
 }
 
-@media screen  and (max-width : 799px) {
+@media screen  and (min-width : 800px) {
+
+    @font-face {
+        font-family: swisBold;
+        src: url(Swis721_BT_Bold.ttf);
+}
+    a {
+        text-decoration: none;
+        color: rgb(0 177 64);
+        z-index: 2;
+}
+    @font-face {
+        font-family: swisBoldExtended;
+        src: url(swiss_721_bold_extended_bt.ttf);
+}
+    div, a {
+        pointer-events: none;
+}
+    #screen3.clickable a {
+        pointer-events: all;
+}
+    #click-detector {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        pointer-events: all;
+        z-index: 0;
+}
+    body {
+        margin:0px;
+        color: rgb(0 177 64);
+}
+    .blend {
+    transition: opacity .1s ease-in-out;
+    -webkit-transition: opacity .1s ease-in-out;
+    -moz-transition: opacity .1s ease-in-out;
+    -o-transition: opacity .1s ease-in-out;
+    height: 100%;
+    mix-blend-mode: multiply;
+    background-blend-mode: multiply;
+    }
+    .screenContainer{
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+}
+    #logo {
+      width: calc(100vw - 72px);
+      height:calc(50vh - 49px);
+      position: fixed;
+}
+    #logo2 {
+      width: calc(100vw - 72px);
+      height:calc(50vh - 49px);
+      bottom: 28px;
+      position: fixed;
+}
+    #issuenumber{
+        font-family: swisBoldExtended;
+        font-size: 9.5em;
+        line-height: .95em;
+        position: fixed;
+        margin:0;
+        bottom: 21px;
+}
+    #screen1{
+        width:calc(100vw - 72px);
+        height:calc(100vh - 72px);
+        margin: 36px;
+        top: 0px;
+        position: fixed;
+        opacity: 1;
+}
+    #screen2 {
+        width:calc(100vw - 72px);
+        height:  100%;
+        margin-top: 32px;
+        margin-bottom: 28px;
+        margin-left: 36px;
+        font-family: swisBold;
+        text-align: justify;
+        font-size: 1.75em;
+        line-height: 1.05em;
+        letter-spacing: -.025em;
+        opacity: .15;
+}
+    #screen3 {
+        width:calc(100vw - 72px);
+        top: 0px;
+        margin-top: 18px;
+        margin-left:24px;
+        margin-right: 24px;
+        font-family: swisBoldExtended;
+        font-size: 9.5em;
+        line-height: .95em;
+        position: fixed;
+        opacity:0;
+}
+    #address {
+        width:96%;
+        font-family: swisBold;
+        text-align: justify;
+        font-size: .185em;
+        margin-top: .54em;
+        line-height: 1.05em;
+        letter-spacing: -.02em;
+        text-align:center;
+        position: fixed;
+        bottom: 28px;
+}
+    #centered {
+        text-align:center;
+}
+    #subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: solid .14em;
+        margin-left: .22em;
+        margin-right: .07em;
+        margin-top: .27em;
+        margin-bottom: .27em;
+        height: 1.38em;
+        overflow:hidden;
+        border-right:.27em;
+}
+    
+}
+
+
+@media (hover: none) and (pointer: coarse) {
 
     @font-face {
         font-family: swisBold;
@@ -161,7 +293,7 @@
     }
     body {
         margin:0px;
-        color: rgb(0 177 64);
+        color: red;
     }
     .blend {
         transition: opacity .1s ease-in-out;
