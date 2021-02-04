@@ -225,8 +225,8 @@
         margin-left:31px;
         margin-right: 24px;
         font-family: swisBoldExtended;
-        font-size: 4.72em;
-        line-height: 1.06em;
+        font-size: 4.6em;
+        line-height: 1.1em;
         position: fixed;
         opacity:0;
         height: 100%;
@@ -255,7 +255,7 @@
         margin-right: .13em;
         margin-top: .36em;
         margin-bottom: .36em;
-        height: 1.38em;
+        height: 1.45em;
         overflow:hidden;
         border-right:.27em;
     }
