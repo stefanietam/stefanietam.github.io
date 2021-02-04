@@ -65,6 +65,7 @@
         opacity: 100%;
         transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
+        background-blend-mode: multiply;
 }
     #screen2 {
         width:calc(100vw - 72px);
@@ -81,6 +82,7 @@
         transition: opacity .1s ease-in-out;
         height: 100%;
         mix-blend-mode: multiply;
+        background-blend-mode: multiply;
 }
     #screen3 {
         width:calc(100vw - 72px);
@@ -95,6 +97,7 @@
         opacity:0%;
         transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
+        background-blend-mode: multiply;
         height: 100%;
 }
     #address {
@@ -195,6 +198,7 @@
         opacity: 100%;
         transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
+        background-blend-mode: multiply;
     }
     #screen2 {
         width:calc(100vw - 72px);
@@ -211,6 +215,7 @@
         transition: opacity .1s ease-in-out;
         height: 100%;
         mix-blend-mode: multiply;
+        background-blend-mode: multiply;
         hyphens:auto;
     }
     #screen3 {
@@ -226,6 +231,7 @@
         opacity:0%;
         transition: opacity .1s ease-in-out;
         mix-blend-mode: multiply;
+        background-blend-mode: multiply;
         height: 100%;
     }
     #address {
